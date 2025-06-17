@@ -320,7 +320,9 @@ SELECT * FROM employees WHERE salary between 50000 and 800000;
  -- syntax create view table_name
  --create view is used to grant permission to directly access the underlying base table 
  --AS select is used to rename columns in a query 
+go
 CREATE VIEW high_salary_employee AS SELECT * FROM employees WHERE salary > 70000;
+go
 
 
  --45. Drop the view 'high_salary_employees'.
